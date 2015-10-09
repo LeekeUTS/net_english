@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net_english", "net_english\net_english.csproj", "{67FA72E0-F715-4BAE-B25A-D4D76BC04F18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{3B774354-43AD-416C-8A52-DF2674E0E7CB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{ECF0CACC-CECD-42B5-813A-CC21D250D63A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\net_english-VM-dev.json = PublishScripts\Configurations\net_english-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67FA72E0-F715-4BAE-B25A-D4D76BC04F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67FA72E0-F715-4BAE-B25A-D4D76BC04F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67FA72E0-F715-4BAE-B25A-D4D76BC04F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67FA72E0-F715-4BAE-B25A-D4D76BC04F18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ECF0CACC-CECD-42B5-813A-CC21D250D63A} = {3B774354-43AD-416C-8A52-DF2674E0E7CB}
+	EndGlobalSection
+EndGlobal
